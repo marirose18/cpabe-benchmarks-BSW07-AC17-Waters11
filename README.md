@@ -36,7 +36,8 @@ sudo apt install -y \
     build-essential python3 python3-dev python3-pip \
     libgmp-dev libssl-dev libmpfr-dev libmpc-dev \
     flex bison autoconf automake libtool \
-    git```
+    git
+```
 ### 2. Install the PBC library
 ```
 wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz
