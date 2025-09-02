@@ -61,6 +61,8 @@ source charm-env/bin/activate
 ### 5. Install Python dependencies
 pip install pycryptodome numpy matplotlib
 
+---
+
 ## **⚡ How to Run Benchmarks**
 1. Clone the repository:
    ```bash
