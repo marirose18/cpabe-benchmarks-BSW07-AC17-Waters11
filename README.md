@@ -26,7 +26,7 @@ It includes:
 ---
 ## **🛠 Requirements & Installation**
 
-This project requires **Python 3.x**, [Charm-Crypto](https://github.com/JHUISI/charm), and the **PBC library**.  
+This project requires **<Python 3.10**, [Charm-Crypto](https://github.com/JHUISI/charm), and the **PBC library**.  
 Follow the steps below to set up the environment:
 
 ### 1. Install system dependencies
@@ -50,7 +50,7 @@ sudo ldconfig
 cd ..
 ```
 ### 3. Install Charm-Crypto
-```
+```bash
 git clone https://github.com/JHUISI/charm.git
 cd charm
 ./configure.sh
@@ -64,7 +64,8 @@ python3 -m venv charm-env
 source charm-env/bin/activate
 ```
 ### 5. Install Python dependencies
-``` pip install pycryptodome numpy matplotlib
+```bash
+pip install pycryptodome numpy matplotlib
 ```
 ---
 
@@ -73,3 +74,5 @@ source charm-env/bin/activate
    ```bash
    git clone https://github.com/your-username/cpabe-benchmarking.git
    cd cpabe-benchmarking
+   benchmark_cpabe.py
+   plot_results.py 
