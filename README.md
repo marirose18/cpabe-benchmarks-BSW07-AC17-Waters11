@@ -4,7 +4,7 @@
 This repository provides a complete toolkit to **benchmark Ciphertext-Policy Attribute-Based Encryption (CP-ABE) schemes** using [Charm-Crypto](https://github.com/JHUISI/charm) and to **visualize performance results** with publication-quality graphs.  
 
 It includes:
-- **Benchmarking Script** → Runs CP-ABE schemes (BSW07, AC17, Waters11) on multiple pairing curves.  
+- **Benchmarking Script** → Runs CP-ABE schemes (BSW07, AC17, Waters11) on two pairing curves ('SS512', 'MNT159').  
 - **Graphing Script** → Generates comparative performance graphs from benchmark results.  
 
 ---
