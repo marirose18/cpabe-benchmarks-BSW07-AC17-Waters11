@@ -30,7 +30,7 @@ This project requires **Python 3.x**, [Charm-Crypto](https://github.com/JHUISI/c
 Follow the steps below to set up the environment:
 
 ### 1. Install system dependencies
-```bash
+bash
 sudo apt update
 sudo apt install -y \
     build-essential python3 python3-dev python3-pip \
