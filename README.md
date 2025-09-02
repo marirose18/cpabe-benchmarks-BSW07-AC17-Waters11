@@ -1,2 +1,4 @@
-# cpabe-benchmarks
-Experiments and benchmarks with Ciphertext-Policy Attribute-Based Encryption (CP-ABE) schemes : BSW07, A17 and Waters11 for both curves ['SS512', 'MNT159']. Includes key generation, encryption, decryption tests, and policy satisfaction checks to evaluate the performance and stability of CP-ABE implementations.
+#🔐 CP-ABE Benchmarking with Charm-Crypto
+
+This project benchmarks multiple Ciphertext-Policy Attribute-Based Encryption (CP-ABE) schemes implemented in Charm-Crypto.
+It includes BSW07, Waters11, and AC17 schemes, tested on different elliptic curves.
