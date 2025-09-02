@@ -30,14 +30,15 @@ This project requires **Python 3.x**, [Charm-Crypto](https://github.com/JHUISI/c
 Follow the steps below to set up the environment:
 
 ### 1. Install system dependencies
-bash
+```bash
 sudo apt update
 sudo apt install -y \
     build-essential python3 python3-dev python3-pip \
     libgmp-dev libssl-dev libmpfr-dev libmpc-dev \
     flex bison autoconf automake libtool \
-    git
+    git```
 ### 2. Install the PBC library
+```
 wget https://crypto.stanford.edu/pbc/files/pbc-0.5.14.tar.gz
 tar -xvf pbc-0.5.14.tar.gz
 cd pbc-0.5.14
@@ -46,21 +47,24 @@ make
 sudo make install
 sudo ldconfig
 cd ..
+```
 ### 3. Install Charm-Crypto
+```
 git clone https://github.com/JHUISI/charm.git
 cd charm
 ./configure.sh
 make
 sudo make install
 cd ..
-
+```
 ### 4. (Optional) Create a virtual environment
+```bash
 python3 -m venv charm-env
 source charm-env/bin/activate
-
+```
 ### 5. Install Python dependencies
-pip install pycryptodome numpy matplotlib
-
+``` pip install pycryptodome numpy matplotlib
+```
 ---
 
 ## **⚡ How to Run Benchmarks**
