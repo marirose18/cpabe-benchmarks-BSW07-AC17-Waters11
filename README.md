@@ -60,6 +60,7 @@ cd ..
 ```
 ### 4. (Optional) Create a virtual environment
 ```bash
+sudo apt install python3.12-venv
 python3 -m venv charm-env
 source charm-env/bin/activate
 ```
@@ -72,6 +73,7 @@ pip install pycryptodome numpy matplotlib
 ## **⚡ How to Run Benchmarks**
 1. Clone the repository:
    ```bash
+   cd charm
    git clone https://github.com/your-username/cpabe-benchmarking.git
    cd cpabe-benchmarking
    benchmark_cpabe.py
