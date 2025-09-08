@@ -74,7 +74,7 @@ pip install pycryptodome numpy matplotlib
 1. Clone the repository:
    ```bash
    cd charm
-   git clone https://github.com/your-username/cpabe-benchmarking.git
+   git clone https://github.com/marirose18/cpabe-benchmarking.git
    cd cpabe-benchmarking
    benchmark_cpabe.py
    plot_results.py 
